@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+div#logo span {
+    font-size: 2em;
+    font-weight: bold;
+}
+div#aqui{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: right;
+  display: inline-flex;
+}
+div h3{
+  
+  font-weight: bold;
+  text-align: left;
+  color: black;
+  font-size: 1.5rem;
+  
+  
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  
+  background: #7159c1;
+}
+
+.container {
+  width: 80%;
+  max-width: 400px;
+  
+  margin: auto;
+}
+
+footer {
+    font-size: 1.5em;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+footer a {
+    color: black;
+}
+nav{
+ margin-right: 81%;
+
+}
+@media screen and (max-width: 480px) {
+  
+  nav{
+    margin-right: auto;
+  }
+  nav ul li {
+      display: block;
+      width: 100%;
+  }
+
+  nav ul li a {
+      width: 100%;
+  }
+  div#aqui{
+    display: block;
+  }
+
+  
+
+}
+
+input {
+  width: 100%;
+  
+  padding: 8px 16px;
+  margin-bottom: 32px;
+  
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  
+  outline: none;
+  
+  font-size: 1.6rem;
+  font-weight:300;
+}
+
+ul {
+  background: white;
+  
+  box-shadow: 0px 4px #00000033;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  
+  padding: 16px;
+  
+  font-size: 1.4rem;
+  
+}
+
+li {
+  list-style: none;
+  padding: 0.4em;
+  display:inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  display: block;
+  
+  color: black;
+  text-decoration: none;  
+  
+  padding: 16px 0;
+  font-size: 1.8rem;
+  
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+li:first-child,
+li:last-child {
+  border: none;
+}
+
+li span {
+  cursor:pointer;
+}
